@@ -7,6 +7,9 @@ void setup() {
 
   image = loadImage("pic.jpg");
   background(image);
+  
+  
+  
 }
 
 class point {
@@ -33,19 +36,20 @@ class point {
   
     
   point[] coordinates = {
-    new point(159, 245), 
-    new point(267, 223), 
-    new point(278, 281), 
-    new point(279, 291),
-    new point(297, 253), 
-    new point(305, 233), 
-    new point(310, 229), 
-    new point(314, 224), 
-    new point(541, 192), 
-    new point(899, 268), 
-    new point(890, 294), 
-    new point(850, 338),
-    new point(750, 450)
+    new city(159, 245), 
+    new city(267, 223), 
+    new city(278, 281), 
+    new city(279, 291),
+    new city(297, 253), 
+    new city(305, 233), 
+    new city(310, 229), 
+    new city(314, 224), 
+    new city(541, 192),
+    new city(850, 338), 
+    new city(890, 294),
+    new city(899, 268), 
+   
+
   };
 
 void draw(){
@@ -56,7 +60,6 @@ void draw(){
   for (int i = 0; i !=11; i++){
   stroke(#ff0000);
   line(coordinates[i].x, coordinates[i].y, coordinates[i+1].x, coordinates[i+1].y);
-
   }
 
 }  
