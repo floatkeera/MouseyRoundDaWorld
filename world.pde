@@ -12,17 +12,17 @@ void setup() {
   
 }
 
-class point {
+class city {
   public int x;
   public int y;
   public boolean visited;
   
-  point(int x1, int y1){
+  city(int x1, int y1){
     x=x1;
     y=y1;
     visited = false;
   }
-  point(){
+  city(){
     x=0;
     y=0;
     visited = false;
@@ -35,7 +35,7 @@ class point {
 }
   
     
-  point[] coordinates = {
+  city[] coordinates = {
     new city(159, 245), 
     new city(267, 223), 
     new city(278, 281), 
