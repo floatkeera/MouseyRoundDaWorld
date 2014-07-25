@@ -1,4 +1,4 @@
-/*@pjs preload="world-map.jpg"; */
+/*@pjs preload="pic.jpg"; */
 PImage image;
 void setup() {
 
